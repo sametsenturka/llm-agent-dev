@@ -13,7 +13,7 @@ def send_request(addr: str) -> str:
     response = requests.get(addr)
     return response.text
 
-groq_model = Groq(id="llama-3.3-70b-versatile", api_key="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")
+groq_model = Groq(id="llama-3.3-70b-versatile", api_key="YOUR_API_KEY")
 
 
 file_agent = Agent(
