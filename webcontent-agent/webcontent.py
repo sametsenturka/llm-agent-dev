@@ -7,6 +7,7 @@ from phi.tools.googlesearch import GoogleSearch
 from phi.model.groq import Groq
 from dotenv import load_dotenv
 
+#set your api-key as env. variable.
 load_dotenv()
 
 def get_website_content(url):
