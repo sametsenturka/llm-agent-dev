@@ -5,6 +5,7 @@ from phi.tools.googlesearch import GoogleSearch
 from phi.tools.yfinance import YFinanceTools
 from dotenv import load_dotenv
 
+#set your api-key as env. variable.
 load_dotenv()
 
 finance_agent = Agent(
