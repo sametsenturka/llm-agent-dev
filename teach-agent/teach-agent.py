@@ -4,6 +4,7 @@ from phi.model.groq import Groq
 from phi.tools.youtube_tools import YouTubeTools
 from phi.tools.exa import ExaTools
 
+#set your api-key as env. variable.
 load_dotenv()
 
 # do not forget to "pip install youtube_transcript_api"
