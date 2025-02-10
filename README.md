@@ -1,6 +1,5 @@
 ```
-```
-## LLM Agent Development (llm-agent-dev)
+LLM Agent Development (llm-agent-dev)
 ```
 
 Welcome to the **LLM Agent Development** repository! This project is built using the **Phidata framework** and demonstrates how to create, customize, and deploy intelligent AI agents locally. Designed by a freshman, this project aims to explore the fundamentals of **Agentic AI Development** and provide a hands-on learning experience.
