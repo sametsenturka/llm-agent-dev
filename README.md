@@ -1,4 +1,4 @@
-# ☁️ 🔧 LLM Agent Team
+# 🤖🔧 LLM Agent Team 🚀 
 
 - AI-powered agents that can do several tasks using natural language commands.
 - Built with `phidata` and `groq`.
