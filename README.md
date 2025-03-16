@@ -76,7 +76,7 @@ web_agent.print_response("Can You Briefly Explain What LangChain is used for?", 
 ### Search Agent
 ```python
 
-search_agent.print_response("What's new about Language Models in SF?", stream=True)
+search_agent.print_response("What are some AI Startups backed by YC?", stream=True)
 
 ```
 
@@ -86,6 +86,12 @@ search_agent.print_response("What's new about Language Models in SF?", stream=Tr
 study_partner.print_response("Summarize the latest Andrej Karpathy video on YouTube", stream=True)
 
 ```
+
+## Agents as a Tool
+
+- You can download and implement these agents as a tool in your projects!
+- Making an agent team with related agents as a tool can save you from deciding which agent to use.
+- check [https://github.com/openai/openai-agents-python] for more agents as a tool implementation.
 
 - **Phidata Documentation**: [https://phidata.com](https://phidata.com)
 
