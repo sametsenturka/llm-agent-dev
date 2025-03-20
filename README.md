@@ -3,7 +3,7 @@
 - AI-powered agents that can do several tasks using natural language commands.
 - Built with `phidata` and `groq`.
 
-I used Groq (llama-3.3-70b-versatile) which provides a Free API Key & 1200Tokens per sec.
+I used Groq (llama-3.3-70b-versatile) which provides a Free API Key & 1200Tokens/second.
 
 ## 🚀 Features
 
