@@ -91,7 +91,7 @@ study_partner.print_response("Summarize the latest Andrej Karpathy video on YouT
 
 - You can download and implement these agents as a tool in your projects!
 - Making an agent team with related agents as a tool can save you from deciding which agent to use.
-- check [https://github.com/openai/openai-agents-python] for more agents as a tool implementation.
+- check [https://github.com/openai/openai-agents-python] for more Agents as a tool implementation.
 
 - **Phidata Documentation**: [https://phidata.com](https://phidata.com)
 
