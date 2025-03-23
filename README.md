@@ -36,12 +36,14 @@ $env:GROQ_API_KEY= "YOUR_API_KEY"
 ```python
 from phi.agent import Agent
 from phi.model.groq import Groq
+
 from phi.tools.duckduckgo import DuckDuckGo
 from phi.tools.file import FileTools
 from phi.tools.googlesearch import GoogleSearch
 from phi.tools.crawl4ai_tools import Crawl4aiTools
 from phi.tools.youtube_tools import YouTubeTools
 from phi.tools.exa import ExaTools
+
 from dotenv import load_dotenv
 
 from bs4 import BeautifulSoup
@@ -76,7 +78,7 @@ web_agent.print_response("Can You Briefly Explain What LangChain is used for?", 
 ### Search Agent
 ```python
 
-search_agent.print_response("What are some AI Startups backed by YC?", stream=True)
+search_agent.print_response("What are some B2B Startups backed by YC?", stream=True)
 
 ```
 
@@ -89,9 +91,10 @@ study_partner.print_response("Summarize the latest Andrej Karpathy video on YouT
 
 ## Agents as a Tool
 
-- You can download and implement these agents as a tool in your projects!
+- You can implement these agents as a tool in your projects!
 - Making an agent team with related agents as a tool can save you from deciding which agent to use.
-- check [https://github.com/openai/openai-agents-python] for more Agents as a tool implementation.
+- Check [https://github.com/openai/openai-agents-python] for more Agents as a tool implementation.
+- You can avoid hallucinated generations by implementing the parallelization & tool routing examples.
 
 - **Phidata Documentation**: [https://phidata.com](https://phidata.com)
 
