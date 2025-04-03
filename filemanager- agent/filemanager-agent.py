@@ -94,7 +94,7 @@ team = Agent(
     debug_mode=True,
 )
 
-user_input = input("Merhaba, size nasıl yardımcı olabilirim? ")
+user_input = input("How Can I Help You? ")
 
 response = team.run(user_input)
 
